@@ -5,20 +5,20 @@ require_relative "lib/rusary/version"
 Gem::Specification.new do |spec|
   spec.name = "rusary"
   spec.version = Rusary::VERSION
-  spec.authors = ["mvghasty"]
+  spec.authors = ["allesklarrr"]
   spec.email = ["fasmagoric.dev@gmail.com"]
 
   spec.summary = "A guide to praying the chaplet written in ruby that dynamically chooses the mystery to be prayed according to the current day"
   spec.description = "A guide to praying the chaplet written in ruby that dynamically chooses the mystery to be prayed according to the current day"
-  spec.homepage = "https://github.com/mvghasty/rusary"
+  spec.homepage = "https://github.com/allesklarrr/rusary"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/mvghasty/rusary"
-  spec.metadata["changelog_uri"] = "https://github.com/mvghasty/rusary/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/allesklarrr/rusary"
+  spec.metadata["changelog_uri"] = "https://github.com/allesklarrr/rusary/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
